@@ -43,6 +43,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/platform/s3c-usbgadget/gadget/lun%d/file"
 
 # Recovery
+BOARD_CUSTOM_BOOTIMG_MK := device/highscreen/explosion/customrecovery.mk
 TARGET_RECOVERY_INITRC := device/highscreen/explosion/recovery/recovery.rc
 TARGET_PROVIDES_INIT := true
 TARGET_PROVIDES_INIT_TARGET_RC := true

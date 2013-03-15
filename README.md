@@ -9,7 +9,5 @@ Build Recovery
 - lunch
 - select device
 - make recoveryimage
-- cd ~/androidsource/device/highscreen/explosion/
-- ./recovery-repacker.sh
 
-Your Recovery - /androidsource/out/target/product/explosion/recovery-uboot.img
+Your Recovery - /androidsource/out/target/product/explosion/recovery.img
